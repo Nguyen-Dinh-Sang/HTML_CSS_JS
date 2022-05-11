@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CatPhotoApp</title>
+</head>
+
+<body>
+    <h2>CatPhotoApp</h2>
+    <main>
+        <!--<!---->
+        <!--TODO:-->
+        <h3>Cat photos</h3>
+        <p>Click here to view more <a href="#">cat photos</a>.</p>
+        <img alt="Cat1" src="https://i.pinimg.com/236x/e4/21/92/e42192b0682ede9d80d92260fb5e17cd.jpg">
+
+        <h3>Cat lists</h3>
+        <p>Things cats <em>love</em> :</p>
+        <ul>
+            <li>Cat nip</li>
+            <li>Laser pointers</li>
+            <li>Lasagna</li>
+        </ul>
+        <img src="file_local.jpg" alt="Beat Cat">
+        <p>Things cats <strong>hate</strong>:</p>
+        <ol>
+            <li>Flea treatment</li>
+            <li>Thunder</li>
+            <li>Other cats</li>
+        </ol>
+        <img src="cats.webp" alt="Cats">
+
+        <!--radio buttons-->
+        <input type="radio"> Cat
+
+        <!--click lable and radio button select-->
+        <label>
+            <input type="radio"> Dog
+        </label>
+        <br>
+
+        <!--radio buttom group have a same name-->
+        <label>
+            <input type="radio" name="indoor-outdoor"> Indoor
+        </label>
+        <label>
+            <input type="radio" name="indoor-outdoor"> Outdoor
+        </label>
+        <br>
+        <br>
+
+        <!--form-->
+        <form action="/file_local.jpg">
+            <label>
+                <input type="radio" checked> Indoor
+            </label>
+            <br>
+            <label>
+                <input type="radio"> Outdoor
+            </label>
+            <br>
+            <input type="text" required placeholder="Hint text">
+
+            <br>
+            <label for="loving">
+                <input type="checkbox" name="personality" checked id="loving"> Loving
+            </label>
+            <br>
+            <label for="lazy">
+                <input type="checkbox" name="personality" id="lazy"> Lazy
+            </label>
+            <br>
+            <label for="energetic">
+                <input type="checkbox" name="personality" id="energetic"> Energetic
+            </label>
+            <br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <br>
+        <!--alt="Cat1" text show when the image can't be loaded-->
+        <!--target="_blank" open link in a new tab-->
+        <a target="_blank" href="https://github.com/Nguyen-Dinh-Sang/HTML_WebsiteCrashCourseBeginners">Cat photos</a>
+        <a href="#"><img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhUZGRgaGhgaHBwaGhwYGhoaGBgaGhgaGBocIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQkJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NP/AABEIAOEA4AMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAECAwUGB//EADsQAAEDAwIEBAMHBAEDBQAAAAEAAhEDBCESMQVBUWEicYGRBjKxE0JSocHR8BRikuHxcsLiI4KistL/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EAB8RAQEBAQEAAwADAQAAAAAAAAABEQIhEjFBA1Fhcf/aAAwDAQACEQMRAD8A3k8qx9EjkfYj6qAYTsFg6jFNKTgolAOUgUxSQEykE0qQagJJgVEqW/mgsIpJKJQMPKUqKSDTTSlKYICyU6gwKaAkAnATApwgHapFME6AUp1GUxcg006jKeUEkClKinhAx1FUsdiAfMKLWNGAAB2ELF/rOhTU78zkq9Z/GtwUWPboc0Kl3BaMRp9ZMoZlyJkI+3rSRPNOYm7GLefDzm5YdQ6HBWZc2D6fztj1n6Lug5KpTa4Q4A+aXxE7s+3nwYTsJRDLR/4CupqcOawEtCF1hYd9Xm5jbnOpsc8+2cN2keipcIXUnsgL+zBGpozzHJLn+TblOxjd/dORzSiMhFssnkag06StSApIp1g+flRLODvPZAZwCZbQ4C+J1Nn1RFDgjYIcZ+oT+NT8o55qsBwtx3AhHz58uShV4GQBoM9UfGn8ox060KvCKg5SOsqq44a9vKfLl5pZRsDByeU+gpgEDTFRTlMg0gFIBV6lMFASTgqKkCgNKkJGAAFRcUGAglqMtDLR5Km9PJL8L9Uii37rirqNctwUOKLgovKJ1gvOt6leNLRO6LpVmrkxVc1aNpdTlac9ajrjHRrLrWoDiTOduSvta0op7A4Qjvn5RHNvNYjGHIJ8layny5FNXIaYMyEqT1yc829Oi3ZqX9HSGNIwEg8NOwDeiCua+kmEG+7JwujYmc1qvumgEYVTuKclnCk4+aTLIudujT+M/WiOKgc1TT4lJ3Ql5w8RgwVK3ohoAiT33Rej+POD28Qk7o+ndNDYlYNSg1x2z2UxZkGQ4hE6T1zHRsfPNWYOy5WtevYQHCR1CPsOIjmVc6TeLmxsVLOm7JaD6Kl3DWH7oHJEUrkFWhwKrIy3qMMfD45u/JCXfBnNBLcgCT19l1MJoGyV5hzuuELUwXYXnD2vaQGiYwe65mtZvZ8zT7fqovONOe5Q4KmohOktPhl9gSUY2oHvnkFhMty1slYN/wDFraJLGeN43jYeZSz+x/x6DUeAEI+m7ouBtvj55Pjpj0MrseCfEdOuIGHdCpvqpMEOb1CnQZHNE1WyhXY7pc+Ur7GlbVtsrYoVZK5mg+Cta1uQt+ay65HX1OWzzC5y5uiDC0uJXcCAd5WO2nJkqOr6riZPVbtTvLqiramAcqBe1vNCvv2j7wwp1d9bTjAVVF4glY1xxgaYlU0eKDTBKL1C+NatWuXO7BV/aQQhWVgduag+s2d9sKVQfQedWUc18mAs2i8EeSNoVAIRCq51vO+UDXswCYxzwtN7xCg1sq99KWg7eq9q0rK9E+JDVWYQeQcJzrBZ8nWh4PNOVhW1cha9NxIWnPWsOuMXFRdmQRIVbX91MGNlRZjmb+z0vIaMckP/AEjv4QtnjLDAcFh1HFcn8nd56zHX/Hx8+d1k/Ft2WUnEYBG/7d9l5VeD7OARLnTvnP8ACvYuL8NFzRdScdJwWO30kGRI5hcV8QfCdZ8FrA5wA+UjeIMTGOa0+UtZ9SyeOc4PdgO8WnSS0OlgdDZgwDg77dgugYxlN9N9FxAfuDgjJEESegPqsC3+GLrVo+yqNk5Ol2mJyZ2K7rh3AHSzW3S1gBjcmNsJ9fHyFz8tb1pxE6fFujKdYO5JUaQgCMDqrK1ERICzzWlsVvZAwZTUbojAVFS58PdU2z5Kr5Z4WfrUc8HfJQtzcgYVs4WPxUEAkFKiRncZ4noaTK4i+44+ZBPvCu4vekhxJmDAXKPqFxJlPnnfaXXfx8jpeH/ER1aXkx35LqA+QCD3XnlSl8ruojluI6LvOC27zRYCJcWj/Updc59K46t+2rYXRmJV1SSdkTwvgrp8ZgztzA/Rb9Xg40+HKOZv2OrjEpVdDd8q2lxDOUz+HOnKFubfQ0k8k8sLZWi/iYmOSMpcVZjxBeV8Y+InBxZT5bn9ljU7+s4zr/X6oyi/H6e9MrMfsUn0AvJODfEVRhGs+GR4gSQJ6zsvUOFX7ajAQfoj9ynZk2CqZj+StW0r4ygNAVrHKubjPqa0arZghNGFBtQaVNlQEStpWf0ouiHNLZzy81z1a1f02wVtVz4uyFvgdJ6Ll7k6t38dP8VvPk/UKjQZiJ59kG8bj+fki6RluRq5Ej5oQ1agWiQ6Wcj94dnKvijQwqlsAkdlP7YFDXpMZ264WYy/cx0HI6osw566BtUAK5rwQsyhcseJ1CenNQrXYZgOT8ictD3b4cQDCFo1zO8hD17iZIG6jRbGSRCzt9ayeOht6g6q2tRDxB5rHo3zRgZ7c/TqiWcR8yqliby5vjHwS97XfZPBJkw7Gd/mXLt+B7sGCxoHUvBH5L1ehdDln+cwrnvB+YxPIblV8vEXnbtcFwX4MAIdVIIGdIBye56LqqNzRYY25YEnH0CMv7YPYWsfpdGOnqvOrmvcW9UNez5nfMMghT6vnmV6H/WMa4aX4jM/qtWxv2kAtdK8wq8Zc0PectbGFpfD3xOxzhqIbvOefId0ovrh6RdQ4TzXE/GVyW0X6QcDK6yi4PYCDuEHWtdctc33G60+TGcvDatOGF3Pf3SsTAk8zGdl6Xxz4Ia4F1EhsjLHfKfIgYK4+6+GLlgDPsHuA5tAcCTzEGe3oiWFZdRZcFoFMxpJLtOCJcIOYnkMbYXQ/CXETTc5hyBt5LKtvhmvr1mk/YCCIMxkrrPh74bNMl741OiAMwO56o69qubkx09veg7IltfoqLe2DRgIgNU+ncEUquFZa1jsgGu0lF43G6vm2+Jsi68bp8XLn2QdWHNxlHa/DkSCubvwWOJYSB06Kf5OP2L/AIvfDUX41sJB+8OnotG3rhw1A5O8bHzCwLG6aYIMO8II/FMb+4z5LRpvaHatp36T3TnqLA99UAJBGOrf1BwVlXNNpEjbqNvJw3b9O617ozsB5dehCy3iDLTB6dv1COj5rmbpzmvjLf5yKvq3kNElH39PUB4f0H/tJ2PbY+cLBvKcES8DOw1EkdRAg+6ysaSjm3Mwrv6icQfQ/oUFbvZ/cfZv/wCkbSj7rJPcucfZsJYo5pNOQ6POf0laXDmEnLhHMzJ9OaGpU3nBY1vnE+zjK0mUtDZ0Y/xHqTAATkpWj6b9LZYzV/c6B+ShcXL+rQOYac/RZgfUefma1o6EH0EYUHvYwkTJOE4keyoZkbJ+L0qdalBjUNj3HJZ7K4AwII2yhb3izQC3VB85n0VyyROe+KOCcDY8u+1y0n5evcrrbTh9Cj8lFje+kT7xK5exqYDgenl6gLoqV62G6sE47f6RKfW7rYZeR90nyVlcB4wYcMgLGe97XBzDLenOUbaXQefGzSRzOCoGfpnViMOkFTbUVlzROXYI5Hp5oG5+UOHLpyTwa0WEFWtYsajft2JyjKFYHYpyFZR5VesznZVOL/5lUfbnYqkiK+DhE0KgI8kA8yFOzB0uA3RPs2q9/hnkhbmkH8gqaNWRDifok8xlsrX8LMcibUSD2gwOUR16K6q9wgyTyOef8B9lax4TucPFO0n3yf8AtI9Vlnit0qNxyO3Xcg/t2Q91VjxDBGDHfYjsVU98j+R7qph1AwC+Acnwtjcgk78+m5StORVeUzUadO/P91n3Fswga6g1cwwaz5ySB55K0amkjx1AG7Q0SO4xDZ8pKz216THQylqOfHUOoZ6MEA+oUX/Vf8W2LGTDKJeeriX/APxYAAPOVp/auaIfUp0x+BjQ8+zZA9Sst91UqDLjp6YaweTRj2Epmho/uPfDfbc+vsluDGvb3jfuB7u7naG+rW4Huo1rpxJyGj+0Qf8AL5j7rNLyd/2A8hsEbTaAJf0nT9J6T0354CNtPJFVauYhsx7Iao+MKytVkzty2wB0A5KNCjOTt9USmp/pX1DklreUGCoP4SwGDM9ltUKY9fp5K/QFciN9cxS1Un5nRK3aV6A3J1AkQquIUWxtugaDCDBw3f0U24ea3tJaC9hkmDpOw91oWl3Tq+CoBqEdiD2WJY3GgeIS18nfaDC0L23Ba2o0ZAHqEFZ+OloNa3wEyCMIK5ZpDgRI9R9EuG3Ae0Ndhw2KvuqmdJIBGI5FXGd8rm4aT8gmfxO/dWl+jIbP+X7qVywNOWEd2/sVCZ2Mj2PspaNSw4ux2D9UfUY14lpXIXFAE4cWnuMf6RNlVe2Bqkef7qpf7K8z8bT2EAhW8MbMt2KHJLhP+kXYNIk8u6eep3xIUf7sp2OgKQt5kpfZCO61+hrlGyRAEbZOAOiY3LAcku8TdsDn7ql4Ls/8T/xKh9mAOufoP/Jc/wAqvFb7h2YaBGJOY8p/RUue6dRJce5x6D9/ZFvYZPmc+qpfVA+7Pnt7JK8C1G/49TgDp5eSHdpH9xHM/L7c/X2VtyS7JO2OwHYckC98KQJknc/67DoFYOyHsHajE7o+rTdSx9/r+Edv7vp57H+maNG+X9OTPPq76eexE7A77nuTvJ/nNZ9B/iaD1A/NFU6skzzJ+qBggUpKuDISpqxOEkwAJtZUg3Ckyn1P6lNNiFVoIVT7MOGTA67+ncot8dPf9v8AlNug9CseCQ0Nj5WNnJGfaf3RNjVc3U0nUATM5MTBT21CXtxs4H2MlD2kipB2cSP8tvzhAbtvSBGN2/TknviSQT036hZ1C9LQDHynS4dlOpcaXaXHwnII5TzH6hXLE5dQuLuMYcOh/TmFnvYHGWPIP4XY9n7H1hTvKcHPmCNiORCH+1Ci+q5i8X+g6agPqM+nUK+2qMeZY70OD+ahReCIMEfhdkenRFWlowmWjSfce/JPKVG0CcDK2Hsc1kjbmg7S3g5CNu3w0BXygM156qbmkc0zK4IhD1LoiQM91docxUeI3wkKrYGeU+/+oWb9lJ7fyVCo3xDpPt/AufWmNZ9QOJggoeuxZBqObkGD/JUXcSJaQZ1df9ItEide7bJbIB27LHfWdOevsk8EmeahVPPr9R/B7oh1s8IcGeM8jpaOrtyfJog+Zb3WzfPDw0843JXN3NTS9rBtTGgx+MfOf8pHkAiXXeRnARf6Lm/onSQQe6RfBRLWBwBHNVVLZTVraFwUc15WS1kIoVcJyixpMephyBY9TFRPU4Mc9MxyFL07KuUaMalmfmPRp/PA+qGezMjff2VlJ8McfxOAHk3J+qi1ypP6e5pjU6NneL3yqHyWRu5m3dvRHXDhpYexHsYWW+roeDyOD5Hf90UQP/WwNDwSw8xuw9R1HUJn2/Ug4kOGzgdi1W12gPLSN8hNQA+Q/KctP4XH9Cp+1FQpuEcwVtWFGATzWfZMIJa4RG62LZueoKqJ6aVmlX8RVtNkDCAuKkGArR/qVZ+kQN0G4qYfO6i5nRAcu/H89gg6z4Mp33KCuLjlCxtbI1qsqmnSTsbO6ta4DdAxVVpnoqLBkPk7Mmp/gNQHqYCvuK2MZVdAeCo78Wlg9TqP/wBR7p8/aevpnPqnfmTPujLZ5KBa2XRyRwMI6HLWtK+kQSVrMMhc5TuGjkjrC/l0ZKS2s5gTFrQpPEpqTOqMUmwBIiFYWKDmowsRIVDwQ7H8KuazKLtmAS8/d2/6uX7ok0r4qu7jSQwfcEH/AKt3fmqTdYlQq2pJnmd1ULVye+lg992HU2Efic313WdeVSd0dTt//TIPJ8+4CFrUJRb4Unq2qdbGO6c+fQ/RW06WoK2ytiWFvfHstbh/CyYJTktFs5VU7bWAfvCAe45HzWnaW0KbKGgx/IRNvSzlXJl9Z3pZeSxgjnuVi1N91ocUqOHg5LMJTtTDJ2uhMkhTi3UuygaOdkeY2UiBhY42Zho9lTUZvhbDgELUAlGBlfZyrblmmk0dS930b/2n3RLqap4qfAwf2n83O/dOIrHtmcyjA1K3YMBEvpwlpyB2MyjKNOFBjVe09ktVBNG4eOeEbb3E77oFjVPSiVTRLwhat9Hy5+iGe4xEqVCnlO2gfa3IcQIIP5d0Q+6DvC35Rjz6lCOZpGkbnc/oE1AaSjbPC+xwlOwxhMazUmV2zzVQrBNIEsdhUgtByr2VQGOQgEmU6mNaxIWzbOxCw+HU8rbpK+Wff2veJ3UqYUCJUqTcp1mo4yzwhyxCui4p8i5tzklQ8py5RlIlCnF0a+89ZVjrgE7qLbWVCrZFYStlrrtsBVPuQZhU1LUqH2RHJGha+4CFv6mprPIj2cVYbcprijLADycfY5TlRUaNPAKLaQVXZOBGk8lc5kbJLIQiGtCFfspU6/JBwQEgkHKbGTskaG6LojTt8x59OwUGgDb1P7K1g5p6lawKwNUGK1pQC0KTaWQpMRVJkquZqeusObeGFV06crSeJaqIjZaXlE6oizZC0mLOtn/mjGOwnPE30QKivtxJQbEdQaUFfEeKfIVzLl0HF6kMXOuci0oUqmvVwpPdCzq75U9dY0551SxoGFJzQnLEzws2od7OyapSCscVW8oAd7QEHcO8JHqi67oyVn1H+LshNU8OqeI4Wm5ZtudLj0Wq0SEX7PlQ4qLWZ2U3thPSckaYEb/kptr8uSbTKQYpUJplFMAQTWq5oKcSKaFNjcoUPIwrKNWE9OjaFMrStqeFlsvACEfb3YK15xj1tFPZyTfZlL7YSrDUHIqkerqNFEOYAhadedt0WxkhAKkMo8OQTHRhXsdOUCguJvnCw3FG37/GYKzqrt0qcU13oF7ldXehXLPqtuYIUaiSSRoO5Kp2ydJAZ9zuUDUSSQVVn5ytW3/ZJJF+xyVb+e6qakklVLW7BXBJJI1w2VlPZJJKfaTPU2bJJKjM3dF2nNJJXEUZTV7UySpAqhuteh8qSSqJqp26so7H+dUkkBg3PzoOskkgoz7hUFJJY37dEf/Z"></a>
+
+        <!--div for block-->
+    </main>
+    <footer>
+        <p>No Copyright</p>
+    </footer>
+</body>
+
+</html>
